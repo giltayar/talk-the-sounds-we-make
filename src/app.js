@@ -8,7 +8,7 @@ app.use(bodyParser.json())
 let counter = 0
 
 app.put('/counter', (req, res) => {
-  counter = req.body.value
+  counter = req.body.counter
 
   res.json({counter})
 })
