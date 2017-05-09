@@ -1,0 +1,28 @@
+{
+  "name": "talk-the-sounds-we-make",
+  "version": "1.0.0",
+  "description": "The code used in the lightning talk \"Èeèéêëēėę: the sounds we make with no E2E Tests and bugs in production\"",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giltayar/talk-the-sounds-we-make.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giltayar/talk-the-sounds-we-make/issues"
+  },
+  "homepage": "https://github.com/giltayar/talk-the-sounds-we-make#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}

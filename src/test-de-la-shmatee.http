@@ -1,0 +1,16 @@
+GET http://localhost:3000/counter
+
+###
+PUT http://localhost:3000/counter
+Content-Type: application/json
+
+{"value": 10}
+
+###
+GET http://localhost:3000/counter
+
+###
+POST http://localhost:3000/counter/increment
+
+###
+GET http://localhost:3000/counter
